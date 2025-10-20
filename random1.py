@@ -1,6 +1,6 @@
 import random
-random_num = random.randint(-100, 100)
-user_guess = int(input("Guess a number between -100 and 100: "))
+random_num = random.randint(0, 100)
+user_guess = int(input("Guess a number between 0 and 100: "))
 if user_guess == random_num:
     print(":)")
 else:
