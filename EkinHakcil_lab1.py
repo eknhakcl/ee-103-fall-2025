@@ -7,10 +7,10 @@ for i in number:
     if digit % 2 == 0:
         total += digit
 
-print("Sum of even digits:", total)
+print(f"Sum of even digits: {total}")
 
 last_digit = total % 10
-print("Last digit of the sum is:", last_digit)
+print(f"Last digit of the sum is: {last_digit}")
 
-for i in range(last_digit):
+for x in range(last_digit):
     print(name)
