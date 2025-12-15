@@ -42,16 +42,19 @@
 
 #############################################
 
-def sum_sq(n1, n2):
-    sq_list = []
-    while n1 <= (n2+n1):
-        sq = n1 ** 2
-        sq_list.append(sq)
-        n1 += 1
-    sq_list = sum(sq_list)
-    return sq_list
+# def sum_sq(n1, n2):
+#     sq_list = []
+#     while n1 <= (n2+n1):
+#         sq = n1 ** 2
+#         sq_list.append(sq)
+#         n1 += 1
+#     sq_list = sum(sq_list)
+#     return sq_list
 
-n1 = int(input("Enter the first number: "))
-n2 = int(input("Enter the second number: "))
-result = sum_sq(n1, n2)
-print(result)
+# n1 = int(input("Enter the first number: "))
+# n2 = int(input("Enter the second number: "))
+# result = sum_sq(n1, n2)
+# print(result)
+
+#ÇALIŞMIYOOOOOOOO############################
+
