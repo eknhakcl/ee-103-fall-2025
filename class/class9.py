@@ -9,3 +9,5 @@ grades
 print(f"Number of courses: {len(grades)}")
 print(f"Average grade: {sum(grades.values()) / len(grades):.2f}")
 print(f"Highest grade: {max(grades.values())} Course: {max(grades, key=grades.get)}")
+
+
